@@ -1,7 +1,7 @@
 import { FaLinkedin } from "react-icons/fa";
 import './Linkedin.css'
 
-function Linkedin() {
+function Link() {
   return (
     <a href="https://linkedin.com" className='container-linkedin links'>
         <FaLinkedin />
@@ -11,4 +11,4 @@ function Linkedin() {
   )
 }
 
-export default Linkedin
+export default Link

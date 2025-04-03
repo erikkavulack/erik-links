@@ -1,16 +1,19 @@
 import './App.css'
-import { FaGithub } from "react-icons/fa";
-
+import { FaGithubSquare } from "react-icons/fa";
+import Linkedin from './components/Linkedin';
 function App() {
 
   return (
     <div className='container-app'>
-      <h1>Links Top</h1>
+      <h1>Links do meu S2</h1>
 
       <a href="https://github.com/erikkavulack" className='links' target='_blank'>
-      <FaGithub />
-      Github
+        <FaGithubSquare />
+        Github
+        <FaGithubSquare />
       </a>
+
+      <Linkedin />
 
     </div>
   )
