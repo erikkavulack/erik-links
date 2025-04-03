@@ -13,6 +13,18 @@
     font-size: 25px;
   }
 
+  .links:hover{
+    scale: 1.1;
+  }
+
+  .links:visited{
+    color: black;
+  }
+
+  a:active{
+    color: aliceblue;
+  }
+
   .container-app{
     min-height: 100vh;
     display: flex;
